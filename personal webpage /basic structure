@@ -1,12 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
+
 <head>
-  <title>Bootstrap 4 Website Example</title>
+
+<meta charset="utf-8">
+  
+
+
+  <title>Niche tourist destinations </title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ 
+  <script src="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/2020-06/VC_Experiences_ReopeningBeaches_RF_1156532604_1280x640.jpg"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <style>
   .fakeimg {
@@ -18,25 +24,30 @@
 <body>
 
 <div class="jumbotron text-center" style="margin-bottom:0">
-  <h1>My First Bootstrap 4 Page</h1>
-  <p>Resize this responsive page to see the effect!</p> 
+<div style="background-image: url('https://thumbs.dreamstime.com/z/footbridge-sea-beach-meditation-journey-calm-hormone-sunset-sea-yoga-footbridge-sea-beach-meditation-journey-calm-hormone-128381503.jpg');">
+  <h1>Niche tourist destinations</h1>
+  <p>Body or mind, there is always one of them is on the way</p> 
 </div>
 
+
+
+
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#">Summary</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+  
+  
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">2-3 days of traveling</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">3-4 days</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">4 days plus</a>
       </li>    
     </ul>
   </div>  
