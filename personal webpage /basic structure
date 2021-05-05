@@ -3,10 +3,6 @@
 
 <head>
 
-<meta charset="utf-8">
-  
-
-
   <title>Niche tourist destinations </title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -59,43 +55,43 @@
       <h2>About Me</h2>
       <h5>Photo of me:</h5>
       <div class="fakeimg">Fake Image</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-      <h3>Some Links</h3>
-      <p>Lorem ipsum dolor sit ame.</p>
+      <p>I designed this site original intention was to provide some reference travel during the outbreak of coronavirus</p>
+      <h3>A little more about me</h3>
+      <p>If you live in the Seattle area as I do too, you might like ...</p>
       <ul class="nav nav-pills flex-column">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
+          <a class="nav-link active" href="#">Where to eat</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Where to drink</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Where to have fun</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
+        
       </ul>
       <hr class="d-sm-none">
     </div>
     <div class="col-sm-8">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2017</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <h2>Where to Eat</h2>
+      <h5>Recommend to you my favorite Asian restaurant</h5>
+      
+      <div style="background-image: url('https://thumbs.dreamstime.com/z/footbridge-sea-beach-meditation-journey-calm-hormone-sunset-sea-yoga-footbridge-sea-beach-meditation-journey-calm-hormone-128381503.jpg');"><div class="fakeimg">Fake Image</div>
+      
+      <p>How to change the image in here?</p>
+      <p>I need to know how to put the linked page and inseart the image </p>
       <br>
       <h2>TITLE HEADING</h2>
       <h5>Title description, Sep 2, 2017</h5>
       <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <p>eeeee</p>
+      <p>some thing should in here </p>
     </div>
   </div>
 </div>
 
 <div class="jumbotron text-center" style="margin-bottom:0">
-  <p>Footer</p>
+  <p>some paragraph in here if need, but need resize the width of the coloumn and how to put a back ground image???</p>
 </div>
 
 </body>
