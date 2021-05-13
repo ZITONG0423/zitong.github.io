@@ -11,3 +11,6 @@ font-size: x-large;
 #Washington {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.tablecell{
+width: 25%;
+}
