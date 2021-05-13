@@ -59,7 +59,7 @@
     a:hover {
       background-color: rgb(170, 219, 241);
     }
-    <!--Group new work starts-->
+   /* Group work starts here */
     .flex{
       display:flex;
     }
@@ -67,11 +67,6 @@
       padding: 10px;
       margin: 10px;
     }
-   
-    img {
-  width: 100%;
-  height: auto;
-}
   </style>
 
 </head>
@@ -79,10 +74,7 @@
 <!--How to change the box into the same adjustable size as Jenna's?-->
 
 <body>
-  <div class="row">
-    <div class ="col-6" style= "background-color: pink;"><p>aaaa</p></div>
-    <div class ="col-6">bbbbb</div>
-  </div>
+ 
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -100,8 +92,8 @@
 </nav>
 <!--Group new work starts-->
 <div class="container">
-  <h3>Bcccccc</h3>
-  <p>somemthing in here </p>
+  <div class ="col-6" style= "background-color: rgb(168, 192, 223);"><p>aaaa</p></div>
+    <div class ="col-6">bbbbb</div>
 </div>
 <!--Group new work starts-->
 <div class="container">
@@ -128,7 +120,6 @@
         href="https://www.npca.org/regions/northwest?gclid=Cj0KCQjw4ImEBhDFARIsAGOTMj_j2DKM3Nl4BGawxwyv9CxcgtAQLFNboatTq2ey_FsE3-dKEC61woAaAkvPEALw_wcB">National
         Parks in Washington</a></p></a>
     </div>
-
     <!--end of Jenna's section as of 4/26-->
    
     
@@ -192,9 +183,10 @@
       beautiful setting for many activities such as: hiking, boating, fishing, beach combing etc
     </div>
     <!--End to jenna's second section, begining of.class attribute -->
+
     <img src="olympic-national-park.jpg" alt="olympic-national-park" width="800" height="400"
-    title="Olympic National Park">
-    
+      title="Olympic National Park">
+
     <!--Seans section as of 4/26-->
     <h2 style="background-color:rgb(241, 199, 59);">Eastern Washington</h2>
     <img src="https://www.planetware.com/wpimages/2020/04/washington-best-waterfalls-palouse-falls.jpg"
@@ -222,9 +214,9 @@
 
     <h2 style="background-color:rgb(196, 100, 45);">Plant Life</h2>
       <!--Mark Comment: now that you know some CSS, try to specify borders and width and other formatting attributes using styles instead of HTML attributes. Also, for tables and images, it is generally a good idea to start specifying relative sizes instead of absolute sizes. So, for example if you want this table to take up the whole width set it to 100%. That way if someone resizes their browser windor or uses a phone to browse your site, the table intelligently displays full width.--> 
-       <!--fixed the table widt and Image sizing-->
+       <!--fixed the table with-->
 
-    <table border="1" width="100%">
+    <table border="1" width="tablecell">
       <!--Mark's Comment: the colspan attribute tells the browser that this one column spans across a number of cells, in this case 500, which means your table is 500 columns wide. I'm guessing that wasn't intentional. In your other rows, you have 2 columns so this colspan value should be 2-->
       <!--Mark Comment: it doesn't look like you've fixed the below colspan error.--> 
        <!--fixed the width + colspan-->
@@ -233,7 +225,7 @@
       </th>
       <!--Patrick.css section-->
       <tr>
-        <td>Forest Zone</td>
+        <td class="tablecell">Forest Zone</td>
         <td class="forestp"> 58% of Mount Rainier park is covered by forest. The Low
           elevation forests are distributed from the park's
           boundary from 1,700 feet to 2,700 feet elevation and are dominated by western hemlock, Douglas-fir, and
@@ -247,7 +239,7 @@
 
       </tr>
       <tr>
-        <td> Subapline Zone</td>
+        <td><strong> Subapline Zone</strong></td>
         <td class="subaplinep">In the high elevation forests, trees become less dense as the forest transitions into
           subalpine parkland.
           The
@@ -286,13 +278,6 @@
       <li>Dicks Burgers</li>
       <li>Dukes Chowder House</li>
       <li>The Met</li>
-    </ul>
-    <ul class="pagination">
-      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-      <li class="page-item"><a class="page-link" href="#">1</a></li>
-      <li class="page-item"><a class="page-link" href="#">2</a></li>
-      <li class="page-item"><a class="page-link" href="#">3</a></li>
-      <li class="page-item"><a class="page-link" href="#">Next</a></li>
     </ul>
   </div>
 </body>
