@@ -20,7 +20,7 @@
     p {
       font-family: 'Courier New', Courier, monospace;
     }
-    
+    /* Mark's Comment 5/16: Generally, you want more general up top, getting more specific the lower you go. So put body up top before h1 and p. */
     body {
       background: rgb(255, 255, 255);
       background-image: url("evergreen-tre.jpg");
@@ -82,7 +82,9 @@
         href="https://github.com/ZITONG0423/zitong0423.github.io">
         Team 8 Project 3 github</a></p></a></a>
     </div>
+    <!--Mark's Comment 5/16: I'm not actually sure if the nav class is needed here so play around with it. -->
     <ul class="nav navbar-nav">
+      <!--Mark's Comment 5/16: It turns out that link items within the navbar should have the nav-item class applied to them. Also, to have the links go to the right places on this page, add an a tag before each student's section and give it an id="" attribute, then replace # with #idname -->
       <li class="active"><a href="#">Jenna</a></li>
       <li><a href="#">Zitong</a></li>
       <li><a href="https://cdn.discordapp.com/attachments/828813034020798484/842215262828494858/63cfb7_ce19cc363e8a42788e5c8688ed6531e5mv2.png">Sean has to go to Ross Lake Reost one day!</a></li>
@@ -91,6 +93,7 @@
   </div>
 </nav>
 <!--Group new work starts-->
+<!--Mark's Comment 5/16: If you intended the two col-6 divs to be placed side by side, using Bootstrap's grid system, I believe you need to have them in another div with class="row" -->
 <div class="container">
   <div class ="col-6" style= "background-color: rgb(168, 192, 223);"><p>Jenna and Zitong</p></div>
     <div class ="col-6">Sean and Patrick</div>
@@ -103,6 +106,7 @@
   <button type="button" class="btn btn-info">Mt Rainier</button>
   <button type="button" class="btn btn-primary">Olympic National Park</button>
   <button type="button" class="btn btn-info">Eastern Washington</button>
+  <!--Mark's Comment 5/16: Don't nest a tags within other a tags! Also, try using a tags instead of button tags and then just give them button classes. (<a class="btn" href="url">Parks</a>)-->
   <button type="button" class="btn btn-link"><a href="#"><p><a style="font-weight: 900;"
     href="https://www.npca.org/regions/northwest?gclid=Cj0KCQjw4ImEBhDFARIsAGOTMj_j2DKM3Nl4BGawxwyv9CxcgtAQLFNboatTq2ey_FsE3-dKEC61woAaAkvPEALw_wcB">National
     Parks in Washington</a></p></a></button>
@@ -116,13 +120,14 @@
   <div style="color:rgb(20, 19, 17);font-weight:bold">
     <p>For more information, please visit at</p>
     <div>
+      <!--Mark's Comment 5/16: Don't nest a tags in other a tags! -->
       <a href="#"><p><a style="font-weight: 900;"
         href="https://www.npca.org/regions/northwest?gclid=Cj0KCQjw4ImEBhDFARIsAGOTMj_j2DKM3Nl4BGawxwyv9CxcgtAQLFNboatTq2ey_FsE3-dKEC61woAaAkvPEALw_wcB">National
         Parks in Washington</a></p></a>
     </div>
     <!--end of Jenna's section as of 4/26-->
    
-    
+    <!--Mark's Comment 5/16: Now that you're using CSS and Bootstrap, you should take advantage of its best feature which is to create webpages that respond to different screen sizes. Replace the width and height attributes here with a CSS style that set's the width to 100% (the height will auto-adjust proportionally). Also, might want to check out the VSCode extension Code Spell Checker. :p-->
     <img src="https://mjbizdaily.com/wp-content/uploads/2019/12/Washington-state-map-768x524.jpg"
       alt="Washinton-state-map" width="600" height="400" title="Olympic National Park">
 
@@ -213,8 +218,9 @@
 
 
     <h2 style="background-color:rgb(196, 100, 45);">Plant Life</h2>
-      <!--Mark Comment: now that you know some CSS, try to specify borders and width and other formatting attributes using styles instead of HTML attributes. Also, for tables and images, it is generally a good idea to start specifying relative sizes instead of absolute sizes. So, for example if you want this table to take up the whole width set it to 100%. That way if someone resizes their browser windor or uses a phone to browse your site, the table intelligently displays full width.--> 
+      <!--Mark Comment: now that you know some CSS, try to specify borders and width and other formatting attributes using styles instead of HTML attributes. Also, for tables and images, it is generally a good idea to start specifying relative sizes instead of absolute sizes. So, for example if you want this table to take up the whole width set it to 100%. That way if someone resizes their browser window or uses a phone to browse your site, the table intelligently displays full width.--> 
        <!--fixed the table with-->
+       <!--Mark's Comment 5/16: Now fix the border, too.-->
 
     <table border="1" style="width:100%">
       <!--Mark's Comment: the colspan attribute tells the browser that this one column spans across a number of cells, in this case 500, which means your table is 500 columns wide. I'm guessing that wasn't intentional. In your other rows, you have 2 columns so this colspan value should be 2-->
