@@ -5,18 +5,13 @@ body {
     font-weight: 500;
 }
 .setbg {
-    background-image: url("background.jpeg");
+    background: rgb(124, 128, 129) url("seattle.jpg") no-repeat fixed center; 
     /*background-attachment: fixed;
     background-repeat: no-repeat;*/
 
     
 	
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-	
-  /* Set up positioning */
-  position: fixed;
+  
   
 }
 .fakeimg {
