@@ -5,9 +5,19 @@ body {
     font-weight: 500;
 }
 .setbg {
-    background-image: url("evergreen-tre.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-image: url("background.jpeg");
+    /*background-attachment: fixed;
+    background-repeat: no-repeat;*/
+
+    
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  
 }
 .fakeimg {
     height: 200px;
