@@ -5,9 +5,14 @@ body {
     font-weight: 500;
 }
 .setbg {
-    background-image: url("evergreen-tre.jpg");
+    /*background-image: url("seattlecity.jpeg");
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+       background-image: url("wave.jpeg");
+        height: 100%; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 }
 .fakeimg {
     height: 200px;
