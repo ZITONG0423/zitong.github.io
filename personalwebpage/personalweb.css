@@ -5,18 +5,18 @@ body {
     font-weight: 500;
 }
 .setbg {
-    background: rgb(105, 93, 112) url("seattlecity.jpeg") no-repeat fixed center; 
-    /*background-attachment: fixed;
-    background-repeat: no-repeat;*/
-
-    
-	
-  
-  
+    background-image: url("evergreen-tre.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 .fakeimg {
     height: 200px;
     background: #aaa;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }
 
 p{
