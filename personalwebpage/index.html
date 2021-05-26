@@ -9,9 +9,9 @@
   <link rel="stylesheet" type="text/css" href="./personalweb.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <style>
-    {
+    
       box-sizing: border-box;
-    }
+    
     
     .column {
       float: left;
@@ -78,6 +78,53 @@ html {
   background-size: cover;
 }
 .mySlides {display:none;}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
     </style>
 </head>
@@ -180,7 +227,7 @@ html {
 <img src="punta2.jpg" alt="tree" style="float:left;width:25%;height:300px;">
 <img src="punta3.jpg" alt="water" style="float:left;width:25%;height:300px;">
 <img src="punta4.jpg" alt="volcano" style="float:left;width:25%;height:300px;">
-        <div id="overflowTest" style= background:lightgrey;><p style="color:rgb(22, 25, 29);padding: 30px;"><strong> 
+        <div id="overflowTest" style= background:lightgrey;><p style="color:rgb(22, 25, 29);padding: 40px;"><strong> 
           🔆 🔆 🔆 
           <p>Another place to hide from winter,
           But Florida has more than Miami and Orlando. Let me introduce you to the most beautiful fishing village in Florida, "Punta Gorda".
@@ -197,7 +244,49 @@ html {
 
       <div id="threeToFour">
         <h2>Sedona, Arizona</h2>
-        <div id="overflowTest"style= background:lightgrey;><p style="color:rgb(22, 25, 29);padding: 30px;"><strong> 
+        <div class="responsive">
+          <div class="gallery">
+            
+              <img src="az1.jpg"  width="25%" height="400px">
+         
+            <div class="desc"style="color:rgb(53, 92, 102);font-weight:bold">City of Sedona</div>
+          </div>
+        </div>
+        
+        
+        <div class="responsive">
+          <div class="gallery">
+           
+              <img src="az2.jpg" width="25%" height="400px">
+            
+            <div class="desc"style="color:rgb(53, 92, 102);font-weight:bold">Boynton Canyon vortexes</div>
+          </div>
+        </div>
+        
+        <div class="responsive">
+          <div class="gallery">
+            
+              <img src="az3.jpg" width="25%" height="400px">
+          
+            <div class="desc"style="color:rgb(53, 92, 102);font-weight:bold">Chapel of the Holy Cross</div>
+          </div>
+        </div>
+        
+        <div class="responsive">
+          <div class="gallery">
+           
+              <img src="az4.jpg" width="500" height="999">
+           
+            <div class="desc"style="color:rgb(53, 92, 102);font-weight:bold">Devil’s Bridge Trai</div>
+          </div>
+        </div>
+        
+        <div class="clearfix"></div>
+        
+        <div style="padding:6px;">
+          
+        </div>
+        <div id="overflowTest"style= background:lightgrey;><p style="color:rgb(22, 25, 29);padding: 40px;"><strong> 
           🌵🌵🌵
           <p>Sedona is Arizona's magical tourist destination in winter! The average winter temperature here is about 14 degrees,
           which is very comfortable and pleasant. Red rocky landscapes can be seen everywhere. For us who have lived in the city

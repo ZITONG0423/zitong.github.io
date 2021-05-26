@@ -27,16 +27,20 @@ body {
 p{
 color:rgb(53, 92, 102);
 }
-/*this p element is pointing to my zitong.html*/
-
-p.fristp{
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-font-size: x-large;color:green;
-}
-
-#Washington {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 .tablecell{
 width: 25%;
 }
+.nav-pills .nav-link.active, .nav-pills .show.nav-link {
+    color: #fff;
+    background-color: #768aa0;
+}
+
+/*.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+a {
+    color: #49a36f;
+    text-decoration: none;
+    background-color: transparent;
+}*/
