@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Css project</title>
+    <title>Css animation  project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <title>CSS animation project</title>
@@ -15,11 +15,6 @@
             border-style: dotted;
         }
 
-        div {
-            border: 1px solid black;
-            background-color: lightblue;
-        }
-
         div p {
             background-color: rgb(218, 211, 173);
         }
@@ -27,7 +22,20 @@
         img {
             float: right;
         }
-        
+        div {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(211, 155, 155);
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-color: rgb(211, 158, 158);}
+  25%  {background-color: rgb(204, 204, 146);}
+  50%  {background-color: rgb(138, 138, 180);}
+  100% {background-color: rgb(163, 206, 163);}
+}
 
 
     </style>
@@ -65,20 +73,16 @@
     <br><br>
     <br>
     <br>
-    <div class="clearfix">
-        <img class="img2" src="yellow.jpeg" alt="yellow heart" width="35px" height="35px">
-        <p style="color:rgb(185, 165, 97); background-color: royalblue"> This is a image in the div with animation.css created
-        lol</p>
+    <div><img class="img2" src="yellow.jpeg" alt="yellow heart" width="80px" height="80px">
+        <p style="color:rgb(185, 165, 97); background-color: royalblue"> somthing in here</p>
         
     </div>
+   
     <br><br>
     <br>
 
     <br>
-    <div>
-        <p>This is the ultmiate thing that I have learned</p>
-    </div>
-    <p>all paragraphs are dividually exist from the div</p>
+    
     <div>
         <section>
             <p>div in a section.</p>
