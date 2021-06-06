@@ -1,1 +1,390 @@
 <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> A place to go </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./personalweb.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    //define the subtitle for click on the header 
+    function displayPara(id) {
+      if (id == 'pCity') {
+        document.getElementById('pCity').style.display = 'block';
+        document.getElementById('pSchool').style.display = 'none';
+        document.getElementById('pGame').style.display = 'none';
+      }
+      if (id == 'pSchool') {
+        document.getElementById('pCity').style.display = 'none';
+        document.getElementById('pSchool').style.display = 'block';
+        document.getElementById('pGame').style.display = 'none';
+      }
+      if (id == 'pGame') {
+        document.getElementById('pCity').style.display = 'none';
+        document.getElementById('pSchool').style.display = 'none';
+        document.getElementById('pGame').style.display = 'block';
+      }
+    }
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+
+    /* over folow text function */
+    .overflowText {
+      background: #899dad;
+      padding: 15px;
+      width: 100%;
+      height: 300px;
+      overflow: scroll;
+      border: 1px solid #ccc;
+    }
+
+
+    /* a button in a header and change color and linked to an external webpage*/
+    .header-text button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 10px 25px;
+      color: rgb(50, 66, 73);
+      background-color: #ddd;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .header-text button:hover {
+      background-color: #555;
+      color: white;
+    }
+
+    /* real background*/
+    html {
+      background: url(bg.jpg) no-repeat center fixed;
+      background-size: cover;
+    }
+
+    /* slides, image dispaly in JS  */
+    .mySlides {
+      display: none;
+    }
+
+    div.gallery {
+      border: 1px solid #ccc;
+      height: 360px;
+    }
+
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+
+    div.gallery img {
+      width: 100%;
+      height: 80%;
+      object-fit: cover;
+    }
+
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .responsive {
+      padding: 0 6;
+      float: left;
+      width: 24.99999%;
+    }
+
+    @media only screen and (max-width: 700px) {
+      .responsive {
+        width: 100%;
+        margin: 6px;
+      }
+    }
+
+    @media only screen and (max-width: 500px) {
+      .responsive {
+        width: 100%;
+      }
+    }
+
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    body {
+      font-family: Verdana, sans-serif;
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .row>.column {
+      padding: 0 8px;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .column {
+      float: left;
+      width: 25%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="setbg text-center" style="margin-bottom:0">
+
+    <!-- title with function bar in the top of the header-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <li class="nav-item"></li>
+      <!-- function created-->
+      <a class="navbar-brand" href="index.html">Homepage/Intro</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#twoday"> Weekend getaways</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#threeToFour">3-4 days vacation place</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#fourPlus">More destinations</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="twoToThree">
+      <h2>Punta Gorda, Florida</h2>
+
+      <div class="responsive">
+        <div class="gallery">
+
+          <img src="punta1.jpg" width="25%" height="400px">
+
+          <div class="desc" style="color:rgb(53, 92, 102);font-weight:bold">Tempa Beach</div>
+        </div>
+      </div>
+
+
+      <div class="responsive">
+        <div class="gallery">
+
+          <img src="punta2.jpg" width="25%" height="400px">
+
+          <div class="desc" style="color:rgb(53, 92, 102);font-weight:bold">Beach View</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+
+          <img src="punta3.jpg" width="25%" height="400px">
+
+          <div class="desc" style="color:rgb(53, 92, 102);font-weight:bold">City of Tampa</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+
+          <img src="punta4.jpg" width="25%" height="400px">
+
+          <div class="desc" style="color:rgb(53, 92, 102);font-weight:bold">Beach Resort</div>
+        </div>
+      </div>
+
+
+      <div class="overflowText" style="background:lightgrey;padding:70px">
+
+        🔆 🔆 🔆
+        <p style="color:rgb(62, 87, 121);"><strong>
+            Another place to hide from winter,
+            But Florida has more than Miami and Orlando. Let me introduce you to the most beautiful fishing village in
+            Florida, "Punta Gorda".
+            Punta Gorda is located in the south of Tampa, the third largest city in Florida. It is a small port town,
+            very suitable for those who don't want to rush the trip. Spend three days here for a simple but pleasant
+            warm winter.
+            Englewood Beach is the favorite beach of the locals. In this sea area, you can learn about the bay
+            ecosystem, including mangrove estuary and seagrass beach, by playing water projects. You can also lie on
+            the beach and sunbathe, or stop and go to enjoy the scenery.
+            The streets here are dotted with rows of royal palm trees. Going deep into the community, you can
+            appreciate the early Florida architectural styles, such as iron roof houses and brick alleys, and
+            experience the retro style of old Florida.
+          </strong></p>
+        <p> 📅Recommended number of days to play: 2 to 3 days</p>
+        <br />
+
+      </div>
+
+      <div id="threeToFour">
+        <h2>Sedona, Arizona</h2>
+        <div class="responsive">
+          <div class="gallery">
+
+            <img src="az1.jpg" width="25%" height="400px">
+
+            <div class="desc" style="color:rgb(53, 92, 102);font-weight:bold">City of Sedona</div>
+          </div>
+        </div>
+
+
+        <div class="responsive">
+          <div class="gallery">
+
+            <img src="az2.jpg" width="25%" height="400px">
+
+            <div class="desc" style="color:rgb(53, 92, 102);font-weight:bold">Boynton Canyon vortexes</div>
+          </div>
+        </div>
+
+        <div class="responsive">
+          <div class="gallery">
+
+            <img src="az3.jpg" width="25%" height="400px">
+
+            <div class="desc" style="color:rgb(53, 92, 102);font-weight:bold">Chapel of the Holy Cross</div>
+          </div>
+        </div>
+
+        <div class="responsive">
+          <div class="gallery">
+
+            <img src="az4.jpg" width="25%" height="400px">
+
+            <div class="desc" style="color:rgb(53, 92, 102);font-weight:bold">Devil’s Bridge Trai</div>
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div style="padding:6px;">
+
+        </div>
+        <div class="overflowText" style="background:lightgrey;padding:70px">
+
+          <p>🌵🌵🌵</p>
+          <p style="color:rgb(116, 134, 158);"><strong>
+              Sedona is Arizona's magical tourist destination in winter! The average winter temperature here is about
+              14 degrees,
+              which is very comfortable and pleasant. Red rocky landscapes can be seen everywhere. For us who have
+              lived in the city
+              for a long time, it is very visually impactful!
+              It is famous for its spiritual healing sacred place. There are multiple magnetic vortexes in the
+              legendary area, which
+              hides "mysterious powers". It is very suitable for rehabilitation, meditation, and self-exploration. You
+              can also find
+              psychic mediums to count a trigram for you, the strongest ones. Points are Airport Mesa, Boynton Canyon,
+              Cathedral
+              Rock, Bell Rock
+              The local must-see attraction is the modern-style church Chapel of the Holy Cross, completed in 1957. It
+              is located in
+              downtown Sedona. The shape can be said to be quite peculiar. It has once again refreshed the
+              understanding of the
+              architectural style of the church!
+              Another must-check attraction is Bell Rock, which is one of the famous magnetic vortexes, which can be
+              easily seen by
+              driving.
+              If you want to hike to learn more about the local red rock landscape, Devil’s Bridge Trail is
+              recommended. This hike
+              is low in difficulty, and children can also hold it, but the journey is relatively long. It takes about
+              3 hours to go
+              back and forth 7.1 kilometers, but the scenery is definitely worth seeing!
+            </strong></p>
+
+          <p> 📅Recommended number of days to play: 2 days and 1 night</p>
+          <br />
+
+        </div>
+
+        <div id="fourPlus">
+          <h2>Pahoa, Hawaii</h2>
+
+
+          <div>
+            <img class="mySlides" src="pahoa1.jpg" style="width:100%;height:700px; display: block;">
+            <img class="mySlides" src="pahoa2.jpg" style="width:100%;height:700px">
+            <img class="mySlides" src="pahoa3.jpg" style="width:100%;height:700px">
+            <img class="mySlides" src="pahoa4.jpg" style="width:100%;height:700px">
+
+            <button class="left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="right" onclick="plusDivs(1)">&#10095;</button>
+          </div>
+
+
+
+
+
+          <div class="overflowText" style="background:lightgrey;padding:70px">
+
+
+            <p> 🌅🌅🌅</p>
+            <p style="color:rgb(29, 78, 141);"><strong>
+                Hawaii is definitely one of the top destinations for sheltering from the cold in winter. The average
+                winter temperature is around 26 degrees Celsius. However, Oahu, Honolulu, and Maui are almost
+                overcrowded every year-end holiday. , While the small town of Pahoa is much cleaner, without a large
+                number of tourists, it is very suitable for a whole-hearted holiday.
+                Pahoa is located on the Big Island of Hawaii. It is known as a small town favored by the volcano
+                goddess Pele, because it is away from one of the most active volcanoes in the world "Kilauea" The
+                distance is less than 0.1 mile, attracting many geological enthusiasts to check in every year.
+                In Pahoa, you can almost enjoy the entire beach alone, snorkeling and swimming with tropical marine
+                life, without having to grab the site with a large number of tourists.
+                Set foot in the tropical rainforest and breathe in the ultra-fresh air brought by the forest oxygen
+                bar.
+                Go to the Main Street of Pahoa to admire the new Victorian architecture and experience the weird and
+                novel collision of hippie culture and traditional Hawaiian culture.
+              </strong></p>
+            <p> 📅Recommended number of days to play: 4 to 5 days</p>
+
+
+          </div>
+
+          <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              if (n > x.length) { slideIndex = 1 }
+              if (n < 1) { slideIndex = x.length }
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+              }
+
+              x[slideIndex - 1].style.display = "block";
+            }
+
+          </script>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</body>
+
+</html>
